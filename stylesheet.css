@@ -1,7 +1,11 @@
 /* header */
 .logo-header{
+    height:80px;
+    display: flex;
+    align-items: center;
 
 }
 #title-header{
-    
+    font-family: 'Lexend Exa', sans-serif;
+    font-size:2rem;
 }
