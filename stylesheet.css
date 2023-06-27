@@ -1,15 +1,12 @@
-body{
-    background-color: rgb(230, 230, 230);
-    position:relative
-    
-}
+
 /* header */
 .logo-header{
-    height:80px;
-    display: flex;
-    align-items: center;
+    
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
     background-color: white;
-
+    width:2000px;
+    vertical-align: middle;
 }
 #title-header{
     font-family: 'Lexend Exa', sans-serif;
@@ -22,9 +19,8 @@ body{
     padding-left: 60px;
     height: 50px;
     padding-top: 10px;
-    
-
 }
+
 button {
 border-radius: 5px;
 border-color: white;
@@ -39,6 +35,93 @@ color: rgb(188, 187, 187)
 #button-grey{
     background-color:white;
     color: grey;
+}
+    
+    /* Main */
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size:25px;
+}
+#span-size{
+font-size: 16px;
+}
+/* tavoletta colori */
+:root {
+    --bool-background: #f6f8f9;
+    --bool-white: #fff;
+    --bool-blue: #47adf1;
+    --bool-q1-goals: #9c72e4;
+    --bool-recruiting: #64c0a8;
+    --bool-mobile: #f29e33;
+    --bool-website: #d863a0;
+    --bool-sales: #b0c926;
+}
+.positive {
+    color: green;
+    border: 1px solid green;
+    margin-right: 10px;
+    padding: 2px 5px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.negative {
+    color: red;
+    border: 1px solid red;
+    margin-right: 10px;
+    padding: 2px 5px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+}
+/*togliere i punti al tag "ul" */
+ul {
+    list-style-type: none;
+    
+    }
+li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
     
     
+.input-text{
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: var(--bool-white);
+    font-size: 12px;
+}
+.editorial{
+    background-color: var(--bool-blue);
+}
+.q1_goals{
+    background-color: var(--bool-q1-goals)
+}
+.recruiting{
+    background-color:var(--bool-recruiting)
+}
+.mobile{
+    background-color: var(--bool-mobile);
+}
+.website{
+    background-color: var(--bool-website);
+}
+.sales{
+    background-color: var(--bool-sales);
+}
+
+/* General */
+.nav-container{
+    background-color: white;
+    width: 70%;
+    margin: auto;
+}
+.container-white{
+    background-color: white;
+    width: 70%;
+    margin: auto;
+}
+body{
+    background-color: rgb(230, 230, 230);
 }
